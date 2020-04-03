@@ -663,7 +663,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.PickDistance,
 		C3.Behaviors.DragnDrop.Acts.Drop,
 		C3.Behaviors.DragnDrop.Acts.SetEnabled,
-		C3.Behaviors.DragnDrop.Cnds.OnDragStart,
 		C3.Plugins.Sprite.Cnds.CompareX,
 		C3.Plugins.System.Exps.layoutwidth,
 		C3.Plugins.Sprite.Acts.SetX,
@@ -671,6 +670,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.Sprite.Exps.Opacity,
 		C3.Plugins.Text.Exps.Opacity,
+		C3.Behaviors.DragnDrop.Cnds.OnDragStart,
 		C3.Plugins.System.Cnds.ForEach,
 		C3.Plugins.Sprite.Cnds.CompareY
 	];
